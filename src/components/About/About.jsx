@@ -73,7 +73,7 @@ const About = () => {
             <div ref={element6}><img src={material} alt="" />Material UI</div>
             <div ref={element7}><img src={git} alt="" />Git</div>
           </div>
-          <a className="blog-opener" href="/" target="_blank"><span>Learn More</span></a>
+          <a className="blog-opener" href="https://gilded-daffodil-055467.netlify.app" target="_blank"><span>Learn More</span></a>
         </div>
       </div>
     </div>
