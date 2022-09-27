@@ -1,0 +1,104 @@
+.c-bg {
+    width: 20px;
+    height: 100%;
+    background-color: #59b256;
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 100px;
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-title {
+    font-size: 48px;
+    width: 80%;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-top: 24px;
+    color: #59b256;
+}
+
+.icon-desc {
+    margin-left: 10px;
+}
+
+textarea {
+    display: flex; 
+    width: 100%;
+    resize: none;
+    padding: 20px;
+    outline: none;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    display: block;
+    outline: none;
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+form button {
+    width: 120px;
+    margin: 20px 0px;
+    border: none;
+    padding: 15px;
+    background-color: #59b256;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .c-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .c-title {
+        font-size: 36px;
+    }
+
+    .c-wrapper {
+        padding: 10px;
+        padding-left: 25px;
+        display: flex;
+    }
+}
